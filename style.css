@@ -781,7 +781,17 @@ section{
     transform: translateX(500px);
     font-family: 'Dancing Script', cursive;
 }
+.text2 h2:nth-child(3){
+    padding: 0px 5px 0px 5px;
+    font-size: 22px;
+    transform: translateX(500px);
+    font-family: 'Dancing Script', cursive;
+}
 .box-content:hover #text3{
+    animation: contenttext2 2s ease-in forwards;
+    animation-delay: 2s;
+}
+.box-content:hover #text4{
     animation: contenttext2 2s ease-in forwards;
     animation-delay: 2s;
 }
